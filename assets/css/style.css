@@ -1,0 +1,113 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+header{
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    height: 10vh;
+    border: 1px solid black;
+}
+
+header h1{
+    flex: 1 0 50%;
+    border: 1px solid black;
+    background-color: rgb(106, 105, 105);
+}
+
+header nav{
+    flex: 1 0 50%;
+    display: flex;
+    border: 1px solid black;
+}
+
+header ul{
+    display: flex;
+    flex-direction: row;
+    justify-content: end;
+    width: 100%;
+}
+
+header li{
+    list-style: none;
+    padding-right: 10%;
+}
+
+main{
+    display: flex;
+    flex-wrap: wrap;
+    border-left: 1px solid black;
+    border-right: 1px solid black;
+    border-bottom: 1px solid black;
+}
+
+footer{
+    display: flex;
+    flex-wrap: wrap;
+    border: 1px solid black
+}
+aside{
+    border-right: 2px solid black;
+    flex: 1 0 15%;
+    display: flex;
+    justify-content: end;
+    padding: 3%;
+}
+
+section{
+    flex: 1 0 80%;
+    padding: 3% 2%;
+}
+
+footer li{
+    list-style: none;
+}
+
+footer ul{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+}
+
+#big-pic img{
+    width: 100%;
+}
+
+#hero{
+    /* background: url(https://placehold.co/1200x300); */
+    /* background-size: contain;
+    width: 100%;
+    background-repeat: no-repeat; */
+    /* border: 1px solid black; */
+    /* display: flex; */
+    /* justify-content: flex-end; */
+    position: relative;
+    /* height: 40vh; */
+}
+
+#hero img{
+    width: 100%;
+    padding: 0;
+}
+
+#hero h3{
+    position: absolute;
+    right: 15%;
+    bottom: 15%;
+}
+
+#small-pics{
+    display: flex;
+    flex-wrap: wrap;
+}
+
+#small-pics section{
+    flex: 1 0 45%
+}
+
+#small-pics img{
+    width: 100%;
+}
