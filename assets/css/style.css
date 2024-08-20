@@ -104,6 +104,9 @@ footer ul{
     position: absolute;
     right: 15%;
     bottom: 15%;
+    background-color: aqua;
+    border: 1px solid black;
+    font-size: 30px;
 }
 
 #small-pics{
@@ -117,4 +120,9 @@ footer ul{
 
 #small-pics img{
     width: 100%;
+}
+
+#small-pics section:hover img{
+    transform: scale(1.1);
+    filter: brightness(0.7) sepia(1) hue-rotate(120deg); 
 }
